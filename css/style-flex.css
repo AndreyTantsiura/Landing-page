@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Arial", sans-serif;
+	background-color: #f8f8f8;
+
+}
+h1 {
+	font-size: 72px;
+	font-weight: bold;
+	color: #fff;
+}
+h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+}
+h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+p {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+}
+.header{
+background-image: url(../images/header-bg.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+height: 799px;
+text-align: center;
+
+}
+.inner {
+  width: 1064px;
+  margin: 0 auto;
+}
+.header-inner {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.header h1 {
+   /*padding-top: 289px;*/
+}
+.header h2 {
+	
+}
+.header h3 {
+	margin-top: 13px;
+	margin-bottom: 43px;
+}
+.header ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.header ul li {
+	/*display: inline-block;*/
+	margin: 0px 17px;
+}
+.header ul li a {
+   width: 163px;
+   height: 50px;
+   display: block;
+   text-indent: 200px;
+   overflow: hidden;
+}
+.content {
+}
+.row {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.row-inverse {
+	flex-direction: row-reverse;
+}
+.left, .right  {
+   width: 490px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.row h2 {
+	/*margin-top: 70px;*/
+	margin-bottom: 20px;
+}
+.footer {
+	background-image: url(../images/footer-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 531px;
+}
+.footer-inner {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-text{
+		 
+}
+.footer h2 {
+   font-weight: normal;
+   color: #fff;
+}
+.footer-social{
+     
+}
+.footer ul {
+   list-style: none;
+   width: 557px; 
+   margin-right: 6px;
+   display: flex;
+   justify-content: space-between;
+}
+.footer ul li {
+   
+}
+.footer ul li a {
+   width: 163px;
+   height: 50px;
+   display: block;
+   /*color: transparent;*/
+   /*color: #f8f8f800;*/
+   /*font-size: 0;*/
+   text-indent: 200px;
+   overflow: hidden;
+}
+.Twitter {
+	background-image: url(../images/u85.png);
+}
+.Google {
+	background-image: url(../images/u80.png);
+}
+.Vkontakte {
+	background-image: url(../images/u90.png);
+}
+.Twitter:hover {
+	background-image: url(../images/u85-r.png);
+}
+.Google:hover {
+	background-image: url(../images/u80-r.png);
+}
+.Vkontakte:hover {
+	background-image: url(../images/u90-r.png);
+}
